@@ -1,11 +1,24 @@
 (ns clj-tgcom.core
-  (:require [reagent.core :as reagent :refer [atom]]))
+  (:require-macros [cljs.core.async.macros :refer [go-loop]])
+  (:require [clj-tgcom.pages :as pages]
+            [reagent.core :as reagent :refer [atom]]
+            [cljs.core.async :refer [chan]]))
 
 (enable-console-print!)
 
-(defonce app-state (atom {:text "Hello Chestnut!"}))
+(defonce events (chan))
+(defonce state (atom {:page (pages/index events)}))
 
-(defn greeting []
-  [:h1 (:text @app-state)])
+(defn initialize-event-handling []
+  (go-loop []
+    (let [event (<! events)]
+      (condp = (:type event)
+        :page-change (swap! state #(assoc % :page ((pages/get-page (:value event)) events)))
+        nil))
+    (recur)))
 
-(reagent/render [greeting] (js/document.getElementById "app"))
+(defn app []
+  (:page @state))
+
+(initialize-event-handling)
+(reagent/render [app] (js/document.getElementById "app"))

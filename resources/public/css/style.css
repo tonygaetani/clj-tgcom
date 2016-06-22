@@ -1,3 +1,19 @@
-h1 {
-  text-decoration: underline;
+a {
+    text-decoration: none;
+}
+
+iframe {    
+ border:0 none;
+}
+.generated-by {
+    font-style: italic;
+    font-size: xx-small;
+}
+
+a.footer.page {
+    font-size: small;
+}
+
+p.footer.pgp {
+    font-size: small;
 }
