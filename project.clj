@@ -1,6 +1,6 @@
 (defproject clj-tgcom "0.1.0-SNAPSHOT"
-  :description "FIXME: write description"
-  :url "http://example.com/FIXME"
+  :description "personal website of tony gaetani"
+  :url "https://tonygaetani.com"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
 
