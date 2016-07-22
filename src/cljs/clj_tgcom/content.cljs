@@ -5,12 +5,6 @@
   (fn _ [] (put! events {:type :page-change
                          :value page})))
 
-;; (defn head []
-;;    [:meta {:charset "UTF-8"}]
-;;    [:meta {:name "viewport" :content "width=device-width, initial-scale=1.0"}]
-;;    [:title "Tony Gaetani"]
-;;    [:link {:rel "stylesheet" :type "text/css" :href "main.css"}])
-
 (defn header [events]
   [:span
    [:a {:class "header page" :href "#" :on-click (page-change events "index")} "index"] " "
