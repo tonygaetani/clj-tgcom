@@ -6,6 +6,7 @@
 
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [org.clojure/clojurescript "1.9.36" :scope "provided"]
+                 [org.clojure/core.async "0.2.385"]
                  [com.cognitect/transit-clj "0.8.285"]
                  [ring "1.4.0"]
                  [ring/ring-defaults "0.2.0"]
@@ -25,8 +26,6 @@
   :test-paths ["test/clj"]
 
   :clean-targets ^{:protect false} [:target-path :compile-path "resources/public/js"]
-
-  :uberjar-name "clj-tgcom.jar"
 
   ;; Use `lein run` if you just want to start a HTTP server, without figwheel
   :main clj-tgcom.server

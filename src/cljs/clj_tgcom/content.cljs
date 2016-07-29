@@ -11,7 +11,7 @@
    [:a {:class "header page" :href "#" :on-click (page-change events "about")} "about"]
    [:hr]
    [:a {:class "header link" :href "http://hiking.tonygaetani.com" :target "_blank"} "hiking"] " "
-   [:a {:class "header link" :href "https://tonygaetani.com/music" :target "_blank"} "music"] " "
+   [:a {:class "header link" :href "https://ceruleancity.github.io" :target "_blank"} "music"] " "
    [:a {:class "header link" :href "https://de.linkedin.com/pub/tony-gaetani/93/b6b/970" :target "_blank"} "linkedin"] " "
    [:a {:class "header link" :href "https://github.com/tonygaetani" :target "_blank"} "github"] " "
    [:a {:class "header link" :href "https://stackoverflow.com/users/664594/tonyg" :target "_blank"} "stackoverflow"] " "
@@ -22,8 +22,7 @@
    [:hr]
    [:a {:class "footer page" :href "#" :on-click (page-change events "weather")} "weather"] [:br]
    [:p {:class "footer pgp"} "PGP fingerprint 984C EC21 2057 94EF D296  AD3F 436F D09B AD04 F349"]
-   [:p {:class "footer generated-by"} "This page was created using "
-    [:a {:href "https://github.com/clojure/clojurescript"} "clojurescript"]]])
+   [:p {:class "footer generated-by"} "Fork me on " [:a {:href "https://github.com/tonygaetani/clj-tgcom" :target "_blank"} "github"] "!"]])
 
 (defn index []
   [:div {:class "me"}
