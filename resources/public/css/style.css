@@ -1,9 +1,9 @@
-a {
-    text-decoration: none;
+div.weather {
+    max-width: 1000px;
 }
 
 iframe {    
- border:0 none;
+    border:0 none;
 }
 
 .generated-by {
