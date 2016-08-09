@@ -134,7 +134,7 @@ Now your app is running at
 [http://localhost:5000](http://localhost:5000) in production mode.
 ## License
 
-Copyright © 2016 FIXME
+Copyright © 2016 Tony Gaetani
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
