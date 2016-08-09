@@ -61,7 +61,7 @@
      [:iframe {:src "https://free.timeanddate.com/clock/i4mcy0p7/n2020/tlde3/fn13/tt0/th1/ta1"
                :height "18"}]]
     [:div {:class "weather"}
-     [:iframe {:src "https://forecast.io/embed/#lat=48.5200&lon=9.0556&name=Tübingen&units=uk"
+     [:iframe {:src "https://forecast.io/embed/#lat=48.5200&lon=9.0556&name=Tübingen&units=ca"
                :id "forcast_embed"
                :type "text/html"
                :height "245"
