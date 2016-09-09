@@ -27,21 +27,26 @@
 (defn index []
   [:div {:class "me"}
    [:h1 "Tony Gaetani"]
-   [:p "Software Engineer | Tübingen, Germany"]])
+   [:p "Software Engineer | Norwood, Massachusetts"]])
 
 (defn about []
   [:span
    [:h2 {:class "me"} "Tony Gaetani"]
    [:p {:class "address"}
-    "Schleifmühleweg 32" [:br]
-    "72070 Tübingen" [:br]
-    "Germany"]
+    "90 Irving Street" [:br]
+    "Norwood, MA" [:br]
+    "USA"]
    [:h3 {:class "experience"} "Professional Experience"]
+   [:p {:class "job"}
+    "Senior Software Engineer" [:br]
+    "6 River Systems, Waltham, MA" [:br]
+    "Sept 2016 - Current" [:br]
+    "Full Stack"]
    [:p {:class "job"}
     "Back-end Software Engineer" [:br]
     "Conceptboard, Stuttgart, Germany" [:br]
     "Oct 2014 - Jun 2016" [:br]
-    "Development Operations" [:br]
+    "DevOps" [:br]
     "Java and Clojure development"]
    [:p {:class "job"}
     "Software Engineer" [:br]
@@ -58,15 +63,6 @@
   [:span
    [:div
     [:div
-     [:iframe {:src "https://free.timeanddate.com/clock/i4mcy0p7/n2020/tlde3/fn13/tt0/th1/ta1"
-               :height "18"}]]
-    [:div {:class "weather"}
-     [:iframe {:src "https://forecast.io/embed/#lat=48.5200&lon=9.0556&name=Tübingen&units=ca"
-               :id "forcast_embed"
-               :type "text/html"
-               :height "245"
-               :width "100%"}]]
-   [:div
      [:iframe {:src "https://free.timeanddate.com/clock/i4mcy8jh/n43/fn13/tt0/th2/ta1"
                :height "18"}]]
     [:div {:class "weather"}
@@ -80,6 +76,15 @@
                :height "18"}]]
     [:div {:class "weather"}
      [:iframe {:src "https://forecast.io/embed/#lat=41.8791&lon=87.6298&name=Chicago&units=us"
+               :id "forcast_embed"
+               :type "text/html"
+               :height "245"
+               :width "100%"}]]
+    [:div
+     [:iframe {:src "https://free.timeanddate.com/clock/i4mcy0p7/n2020/tlde3/fn13/tt0/th1/ta1"
+               :height "18"}]]
+    [:div {:class "weather"}
+     [:iframe {:src "https://forecast.io/embed/#lat=48.5200&lon=9.0556&name=Tübingen&units=ca"
                :id "forcast_embed"
                :type "text/html"
                :height "245"
