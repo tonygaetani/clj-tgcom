@@ -27,18 +27,18 @@
 (defn index []
   [:div {:class "me"}
    [:h1 "Tony Gaetani"]
-   [:p "Software Engineer | Norwood, Massachusetts"]])
+   [:p "Software Engineer | Chicago, Illinois"]])
 
 (defn about []
   [:span
    [:h2 {:class "me"} "Tony Gaetani"]
    [:p {:class "address"}
-    "90 Irving Street" [:br]
-    "Norwood, MA" [:br]
+    "Hyde Park" [:br]
+    "Chicago, IL" [:br]
     "USA"]
    [:h3 {:class "experience"} "Professional Experience"]
    [:p {:class "job"}
-    "Senior Software Engineer" [:br]
+    "Consultant" [:br]
     "6 River Systems, Waltham, MA" [:br]
     "Sept 2016 - Current" [:br]
     "Full Stack"]
