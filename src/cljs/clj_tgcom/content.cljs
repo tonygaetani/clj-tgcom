@@ -12,7 +12,7 @@
    [:hr]
    [:a {:class "header link" :href "http://hiking.tonygaetani.com" :target "_blank"} "hiking"] " "
    [:a {:class "header link" :href "https://ceruleancity.github.io" :target "_blank"} "music"] " "
-   [:a {:class "header link" :href "https://de.linkedin.com/pub/tony-gaetani/93/b6b/970" :target "_blank"} "linkedin"] " "
+   [:a {:class "header link" :href "https://linkedin.com/in/tonygaetani" :target "_blank"} "linkedin"] " "
    [:a {:class "header link" :href "https://github.com/tonygaetani" :target "_blank"} "github"] " "
    [:a {:class "header link" :href "https://stackoverflow.com/users/664594/tonyg" :target "_blank"} "stackoverflow"] " "
    [:hr]])
@@ -27,7 +27,7 @@
 (defn index []
   [:div {:class "me"}
    [:h1 "Tony Gaetani"]
-   [:p "Software Engineer | Chicago, Illinois"]])
+   [:p "Software Engineer | Chicago, IL"]])
 
 (defn about []
   [:span
@@ -63,19 +63,19 @@
   [:span
    [:div
     [:div
-     [:iframe {:src "https://free.timeanddate.com/clock/i4mcy8jh/n43/fn13/tt0/th2/ta1"
+     [:iframe {:src "https://freesecure.timeanddate.com/clock/i4mcy8jh/n64/fn13/tt0/th2/ta1"
                :height "18"}]]
     [:div {:class "weather"}
-     [:iframe {:src "https://forecast.io/embed/#lat=42.3583&lon=-71.0603&name=Boston&units=us"
+     [:iframe {:src "https://forecast.io/embed/#lat=41.8791&lon=87.6298&name=Chicago&units=us"
                :id "forcast_embed"
                :type "text/html"
                :height "245"
                :width "100%"}]]
     [:div
-     [:iframe {:src "https://freesecure.timeanddate.com/clock/i4mcy8jh/n64/fn13/tt0/th2/ta1"
+     [:iframe {:src "https://free.timeanddate.com/clock/i4mcy8jh/n43/fn13/tt0/th2/ta1"
                :height "18"}]]
     [:div {:class "weather"}
-     [:iframe {:src "https://forecast.io/embed/#lat=41.8791&lon=87.6298&name=Chicago&units=us"
+     [:iframe {:src "https://forecast.io/embed/#lat=42.3583&lon=-71.0603&name=Boston&units=us"
                :id "forcast_embed"
                :type "text/html"
                :height "245"

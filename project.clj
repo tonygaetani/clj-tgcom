@@ -1,4 +1,4 @@
-(defproject clj-tgcom "0.1.6-SNAPSHOT"
+(defproject clj-tgcom "0.1.7-SNAPSHOT"
   :description "personal website of tony gaetani"
   :url "https://tonygaetani.com"
   :license {:name "Eclipse Public License"
