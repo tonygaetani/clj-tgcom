@@ -14,4 +14,5 @@ figwheel_server.log
 pom.xml
 pom.xml.asc
 .projectile
+deploy.bash
 
