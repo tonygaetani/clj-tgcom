@@ -41,7 +41,7 @@
     "Consultant" [:br]
     "6 River Systems, Waltham, MA" [:br]
     "Sept 2016 - Current" [:br]
-    "Full Stack"]
+    "Full Stack development"]
    [:p {:class "job"}
     "Back-end Software Engineer" [:br]
     "Conceptboard, Stuttgart, Germany" [:br]
@@ -52,7 +52,7 @@
     "Software Engineer" [:br]
     "Mimio, Cambridge, MA" [:br]
     "Nov 2010 - Jun 2014" [:br]
-    "Cross-platform C++ Development" [:br]]
+    "Cross-platform C++ development" [:br]]
    [:h3 {:class "education"} "Education"]
    [:p {:class "school"}
     "B.S. Software Engineering" [:br]
